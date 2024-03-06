@@ -1,0 +1,37 @@
+.hero-container {
+  background-color: #403d58;
+  color: #fff;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-content {
+  text-align: center;
+}
+
+.content-container {
+  background-color: #dbd56e;
+  height: auto;
+  padding: 3rem 0;
+}
+
+.content {
+  text-align: center;
+}
+
+button {
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
+  padding: 0.5rem 1rem;
+  border: none;
+  background-color: #fff;
+  color: #403d58;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #ccc;
+}
