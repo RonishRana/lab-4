@@ -1,3 +1,6 @@
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap')
+</style>
 .hero-container {
   background-color: #403d58;
   color: #fff;
@@ -34,4 +37,57 @@ button {
 
 button:hover {
   background-color: #ccc;
+}
+
+.accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+}
+
+.active, .accordion:hover {
+  background-color: #ccc;
+}
+
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  display: none;
+  overflow: hidden;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: black;
+  color: white;
+}
+.map{
+  display: inline-block;
+
+  margin:10px;
+}
+.foot{
+  display: flex;
+  height:300px;
+  flex-direction: row;
+  background-color: black;
+  color: white;
+}
+.footinfo{
+  display: inline-block;
+  padding-top:80px;
+  margin:10px;
+}
+.foot-links{
+  display: inline-block;
+  padding-top:90px;
+  margin:10px;
 }
